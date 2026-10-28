@@ -42,12 +42,13 @@ eureka:
     prefer-ip-address: true
     hostname: localhost
 
+
 management:
   endpoints:
     web:
       exposure:
         include: health,info,prometheus
-   tracing:
+  tracing:
     sampling:
       probability: 0.1
   zipkin:
@@ -56,6 +57,7 @@ management:
   metrics:
     tags:
       application: ${spring.application.name}
+
 
 
 
