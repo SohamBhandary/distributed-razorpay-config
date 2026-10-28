@@ -77,12 +77,4 @@ app:
       refund: refund.events
       settlement: settlement.events
 
----
 
-
-
-eureka:
-  client:
-    enabled: false
-    register-with-eureka: false
-    fetch-registry: false
